@@ -1,6 +1,6 @@
 # Marketplace Mirage: Exposing the Security Gap in GitHub's Action Marketplace
 
-**Yi-Tso Huang, Jonathan Kao**
+**Yi-Tso Huang, Jonathan Kao**<br>
 Purdue University - `{huan1922, kao54}@purdue.edu`
 
 > Original PDF: [`kao huang paper.pdf`](kao%20huang%20paper.pdf)
@@ -149,8 +149,8 @@ Correlation strength interpretation follows standard thresholds: $|r| < 0.3$ (we
 
 For each security check, we measured the "verification premium":
 
-- **Absolute score difference:** $\Delta_{\text{check}} = \text{mean}_{\text{verified}} - \text{mean}_{\text{unverified}}$
-- **Relative improvement:** $\dfrac{\Delta_{\text{check}}}{\text{mean}_{\text{unverified}}} \times 100\%$
+- **Absolute score difference:** $`\Delta_{\text{check}} = \text{mean}_{\text{verified}} - \text{mean}_{\text{unverified}}`$
+- **Relative improvement:** $`\dfrac{\Delta_{\text{check}}}{\text{mean}_{\text{unverified}}} \times 100\%`$
 - **Failure rate reduction:** Percentage point decrease in failure rates for verified vs. unverified
 
 #### 3.5.4 Risk Profiling
