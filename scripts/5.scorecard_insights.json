@@ -1,0 +1,2041 @@
+{
+  "generated_at": "2025-12-02T00:29:23.932132",
+  "analysis_summary": {
+    "conclusion": "Verified actions are MORE secure",
+    "overall_score_difference": 0.81,
+    "overall_score_difference_pct": 20.34,
+    "verified_avg_score": 4.78,
+    "unverified_avg_score": 3.97,
+    "checks_where_verified_better": 11,
+    "total_checks_compared": 18,
+    "verified_better_percentage": 61.11,
+    "total_verified_repos": 424,
+    "total_unverified_repos": 447
+  },
+  "check_occurrence_analysis": {
+    "Dependency-Update-Tool": {
+      "verified_count": 18,
+      "verified_total": 424,
+      "verified_occurrence_pct": 4.25,
+      "unverified_count": 2,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 0.45
+    },
+    "CI-Tests": {
+      "verified_count": 18,
+      "verified_total": 424,
+      "verified_occurrence_pct": 4.25,
+      "unverified_count": 2,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 0.45
+    },
+    "Contributors": {
+      "verified_count": 18,
+      "verified_total": 424,
+      "verified_occurrence_pct": 4.25,
+      "unverified_count": 2,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 0.45
+    },
+    "Signed-Releases": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Token-Permissions": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "SAST": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Packaging": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Security-Policy": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Branch-Protection": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Vulnerabilities": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Pinned-Dependencies": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Fuzzing": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "CII-Best-Practices": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Binary-Artifacts": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Code-Review": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "License": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Maintained": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Dangerous-Workflow": {
+      "verified_count": 424,
+      "verified_total": 424,
+      "verified_occurrence_pct": 100.0,
+      "unverified_count": 447,
+      "unverified_total": 447,
+      "unverified_occurrence_pct": 100.0
+    }
+  },
+  "star_correlation_analysis": {
+    "verified": {
+      "correlation": 0.193,
+      "interpretation": "Very weak positive correlation",
+      "sample_size": 424
+    },
+    "unverified": {
+      "correlation": 0.105,
+      "interpretation": "Very weak positive correlation",
+      "sample_size": 447
+    },
+    "overall": {
+      "correlation": 0.113,
+      "interpretation": "Very weak positive correlation",
+      "sample_size": 871
+    }
+  },
+  "reason_analysis": {
+    "problematic_checks": {
+      "Fuzzing": {
+        "total_failures": 867,
+        "reasons": {
+          "project is not fuzzed": 867
+        }
+      },
+      "Signed-Releases": {
+        "total_failures": 865,
+        "reasons": {
+          "no releases found": 817,
+          "Project has not signed or included provenance with any releases.": 46,
+          "X out of the last X releases have signed artifacts": 2
+        }
+      },
+      "CII-Best-Practices": {
+        "total_failures": 864,
+        "reasons": {
+          "no effort to earn an OpenSSF best practices badge detected": 861,
+          "badge detected: InProgress": 3
+        }
+      },
+      "Packaging": {
+        "total_failures": 801,
+        "reasons": {
+          "packaging workflow not detected": 798,
+          "no published package detected": 1,
+          "internal error: internal error: invalid GitHub workflow:\n:13:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1,
+          "internal error: internal error: invalid GitHub workflow:\n:25:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1
+        }
+      },
+      "Token-Permissions": {
+        "total_failures": 785,
+        "reasons": {
+          "detected GitHub workflow tokens with excessive permissions": 669,
+          "No tokens found": 114,
+          "internal error: internal error: invalid GitHub workflow:\n:13:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1,
+          "internal error: internal error: invalid GitHub workflow:\n:25:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1
+        }
+      },
+      "Pinned-Dependencies": {
+        "total_failures": 779,
+        "reasons": {
+          "dependency not pinned by hash detected": 711,
+          "no dependencies found": 66,
+          "internal error: internal error: invalid GitHub workflow:\n:13:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1,
+          "internal error: internal error: invalid GitHub workflow:\n:25:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1
+        }
+      },
+      "Branch-Protection": {
+        "total_failures": 762,
+        "reasons": {
+          "branch protection not enabled on development/release branches": 347,
+          "internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protection rules: https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md": 339,
+          "branch protection is not maximal on development and all release branches": 61,
+          "internal error: error during branchesHandler.setup: internal error: githubv4.Query: Resource not accessible by integration": 13,
+          "internal error: error during GetBranch(releases/v1): error during branchesHandler.query: internal error: some github tokens can't read classic branch protection rules: https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md": 1,
+          "internal error: error during GetBranch(master): error during branchesHandler.query: internal error: some github tokens can't read classic branch protection rules: https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md": 1
+        }
+      },
+      "SAST": {
+        "total_failures": 695,
+        "reasons": {
+          "SAST tool is not run on all commits (partial)": 646,
+          "no SAST tool detected": 46,
+          "internal error: internal error: Client.Checks.ListCheckRunsForRef: error during graphqlHandler.setupCheckRuns: Although you appear to have the correct authorization credentials, the `bridgecrewio` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.": 1,
+          "internal error: internal error: invalid GitHub workflow:\n:13:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1,
+          "internal error: internal error: invalid GitHub workflow:\n:25:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1
+        }
+      },
+      "Maintained": {
+        "total_failures": 624,
+        "reasons": {
+          "X commit(s) and X issue activity found in the last 90 days": 573,
+          "project is archived": 50,
+          "4 commit(s) out of 30 and 0 issue activity out of 0 found in the last 90 days -- score normalized to 3": 1
+        }
+      },
+      "Security-Policy": {
+        "total_failures": 578,
+        "reasons": {
+          "security policy file not detected": 564,
+          "security policy file detected": 14
+        }
+      },
+      "Code-Review": {
+        "total_failures": 547,
+        "reasons": {
+          "Found X/X approved changesets (partial code review)": 527,
+          "Found no human activity in the last 15 changesets": 9,
+          "Found no human activity in the last 30 changesets": 4,
+          "Found no human activity in the last 14 changesets": 2,
+          "Found no human activity in the last 23 changesets": 1,
+          "Found no human activity in the last 22 changesets": 1,
+          "Found no human activity in the last 25 changesets": 1,
+          "Found no human activity in the last 16 changesets": 1,
+          "Found no human activity in the last 17 changesets": 1
+        }
+      },
+      "Vulnerabilities": {
+        "total_failures": 325,
+        "reasons": {
+          "X existing vulnerabilities detected": 325
+        }
+      },
+      "Dangerous-Workflow": {
+        "total_failures": 132,
+        "reasons": {
+          "no workflows found": 114,
+          "dangerous workflow patterns detected": 16,
+          "internal error: internal error: invalid GitHub workflow:\n:13:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1,
+          "internal error: internal error: invalid GitHub workflow:\n:25:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1
+        }
+      },
+      "License": {
+        "total_failures": 42,
+        "reasons": {
+          "license file not detected": 42
+        }
+      },
+      "Binary-Artifacts": {
+        "total_failures": 11,
+        "reasons": {
+          "binaries present in source code": 11
+        }
+      },
+      "CI-Tests": {
+        "total_failures": 2,
+        "reasons": {
+          "X out of X merged PRs checked by a CI test (partial)": 2
+        }
+      }
+    },
+    "common_issues": [
+      {
+        "check": "Fuzzing",
+        "failure_count": 867,
+        "most_common_reason": "project is not fuzzed",
+        "reason_count": 867
+      },
+      {
+        "check": "Signed-Releases",
+        "failure_count": 865,
+        "most_common_reason": "no releases found",
+        "reason_count": 817
+      },
+      {
+        "check": "CII-Best-Practices",
+        "failure_count": 864,
+        "most_common_reason": "no effort to earn an OpenSSF best practices badge detected",
+        "reason_count": 861
+      },
+      {
+        "check": "Packaging",
+        "failure_count": 801,
+        "most_common_reason": "packaging workflow not detected",
+        "reason_count": 798
+      },
+      {
+        "check": "Token-Permissions",
+        "failure_count": 785,
+        "most_common_reason": "detected GitHub workflow tokens with excessive permissions",
+        "reason_count": 669
+      }
+    ],
+    "all_check_reasons": {
+      "Maintained": {
+        "X commit(s) and X issue activity found in the last 90 days": 820,
+        "project is archived": 50,
+        "4 commit(s) out of 30 and 0 issue activity out of 0 found in the last 90 days -- score normalized to 3": 1
+      },
+      "Packaging": {
+        "packaging workflow not detected": 798,
+        "packaging workflow detected": 70,
+        "no published package detected": 1,
+        "internal error: internal error: invalid GitHub workflow:\n:13:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1,
+        "internal error: internal error: invalid GitHub workflow:\n:25:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1
+      },
+      "Code-Review": {
+        "Found X/X approved changesets (partial code review)": 723,
+        "all changesets reviewed": 128,
+        "Found no human activity in the last 15 changesets": 9,
+        "Found no human activity in the last 30 changesets": 4,
+        "Found no human activity in the last 14 changesets": 2,
+        "Found no human activity in the last 23 changesets": 1,
+        "Found no human activity in the last 22 changesets": 1,
+        "Found no human activity in the last 25 changesets": 1,
+        "Found no human activity in the last 16 changesets": 1,
+        "Found no human activity in the last 17 changesets": 1
+      },
+      "Binary-Artifacts": {
+        "no binaries found in the repo": 810,
+        "binaries present in source code": 61
+      },
+      "Dangerous-Workflow": {
+        "no dangerous workflow patterns detected": 739,
+        "no workflows found": 114,
+        "dangerous workflow patterns detected": 16,
+        "internal error: internal error: invalid GitHub workflow:\n:13:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1,
+        "internal error: internal error: invalid GitHub workflow:\n:25:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1
+      },
+      "CII-Best-Practices": {
+        "no effort to earn an OpenSSF best practices badge detected": 861,
+        "badge detected: Passing": 7,
+        "badge detected: InProgress": 3
+      },
+      "Token-Permissions": {
+        "detected GitHub workflow tokens with excessive permissions": 707,
+        "No tokens found": 114,
+        "GitHub workflow tokens follow principle of least privilege": 48,
+        "internal error: internal error: invalid GitHub workflow:\n:13:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1,
+        "internal error: internal error: invalid GitHub workflow:\n:25:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1
+      },
+      "Pinned-Dependencies": {
+        "dependency not pinned by hash detected": 778,
+        "no dependencies found": 66,
+        "all dependencies are pinned": 25,
+        "internal error: internal error: invalid GitHub workflow:\n:13:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1,
+        "internal error: internal error: invalid GitHub workflow:\n:25:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1
+      },
+      "License": {
+        "license file detected": 829,
+        "license file not detected": 42
+      },
+      "Fuzzing": {
+        "project is not fuzzed": 867,
+        "project is fuzzed": 4
+      },
+      "Signed-Releases": {
+        "no releases found": 817,
+        "Project has not signed or included provenance with any releases.": 46,
+        "X out of the last X releases have signed artifacts": 8
+      },
+      "Security-Policy": {
+        "security policy file not detected": 564,
+        "security policy file detected": 307
+      },
+      "Vulnerabilities": {
+        "X existing vulnerabilities detected": 870,
+        "no vulnerabilities detected": 1
+      },
+      "Branch-Protection": {
+        "branch protection not enabled on development/release branches": 347,
+        "internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protection rules: https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md": 339,
+        "branch protection is not maximal on development and all release branches": 170,
+        "internal error: error during branchesHandler.setup: internal error: githubv4.Query: Resource not accessible by integration": 13,
+        "internal error: error during GetBranch(releases/v1): error during branchesHandler.query: internal error: some github tokens can't read classic branch protection rules: https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md": 1,
+        "internal error: error during GetBranch(master): error during branchesHandler.query: internal error: some github tokens can't read classic branch protection rules: https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md": 1
+      },
+      "SAST": {
+        "SAST tool is not run on all commits (partial)": 681,
+        "SAST tool detected but not run on all commits": 78,
+        "SAST tool is run on all commits": 60,
+        "no SAST tool detected": 46,
+        "SAST tool detected": 3,
+        "internal error: internal error: Client.Checks.ListCheckRunsForRef: error during graphqlHandler.setupCheckRuns: Although you appear to have the correct authorization credentials, the `bridgecrewio` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.": 1,
+        "internal error: internal error: invalid GitHub workflow:\n:13:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1,
+        "internal error: internal error: invalid GitHub workflow:\n:25:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": 1
+      },
+      "Dependency-Update-Tool": {
+        "update tool detected": 20
+      },
+      "CI-Tests": {
+        "X out of X merged PRs checked by a CI test (partial)": 20
+      },
+      "Contributors": {
+        "project has X contributing companies or organizations": 19,
+        "4 different organizations found -- score normalized to 10": 1
+      }
+    },
+    "reason_distribution_by_category": {
+      "verified_total_samples": 3994,
+      "unverified_total_samples": 4685,
+      "reason_comparison": {
+        "security policy file not detected": {
+          "verified_count": 190,
+          "unverified_count": 374,
+          "verified_percentage": 4.76,
+          "unverified_percentage": 7.98,
+          "difference_pct": -3.23,
+          "bias_towards": "neutral"
+        },
+        "Found X/X approved changesets (partial code review)": {
+          "verified_count": 187,
+          "unverified_count": 340,
+          "verified_percentage": 4.68,
+          "unverified_percentage": 7.26,
+          "difference_pct": -2.58,
+          "bias_towards": "neutral"
+        },
+        "branch protection not enabled on development/release branches": {
+          "verified_count": 118,
+          "unverified_count": 229,
+          "verified_percentage": 2.95,
+          "unverified_percentage": 4.89,
+          "difference_pct": -1.93,
+          "bias_towards": "neutral"
+        },
+        "no releases found": {
+          "verified_count": 407,
+          "unverified_count": 410,
+          "verified_percentage": 10.19,
+          "unverified_percentage": 8.75,
+          "difference_pct": 1.44,
+          "bias_towards": "neutral"
+        },
+        "packaging workflow not detected": {
+          "verified_count": 395,
+          "unverified_count": 403,
+          "verified_percentage": 9.89,
+          "unverified_percentage": 8.6,
+          "difference_pct": 1.29,
+          "bias_towards": "neutral"
+        },
+        "project is not fuzzed": {
+          "verified_count": 423,
+          "unverified_count": 444,
+          "verified_percentage": 10.59,
+          "unverified_percentage": 9.48,
+          "difference_pct": 1.11,
+          "bias_towards": "neutral"
+        },
+        "no effort to earn an OpenSSF best practices badge detected": {
+          "verified_count": 420,
+          "unverified_count": 441,
+          "verified_percentage": 10.52,
+          "unverified_percentage": 9.41,
+          "difference_pct": 1.1,
+          "bias_towards": "neutral"
+        },
+        "SAST tool is not run on all commits (partial)": {
+          "verified_count": 278,
+          "unverified_count": 368,
+          "verified_percentage": 6.96,
+          "unverified_percentage": 7.85,
+          "difference_pct": -0.89,
+          "bias_towards": "neutral"
+        },
+        "no workflows found": {
+          "verified_count": 69,
+          "unverified_count": 45,
+          "verified_percentage": 1.73,
+          "unverified_percentage": 0.96,
+          "difference_pct": 0.77,
+          "bias_towards": "neutral"
+        },
+        "No tokens found": {
+          "verified_count": 69,
+          "unverified_count": 45,
+          "verified_percentage": 1.73,
+          "unverified_percentage": 0.96,
+          "difference_pct": 0.77,
+          "bias_towards": "neutral"
+        },
+        "X commit(s) and X issue activity found in the last 90 days": {
+          "verified_count": 280,
+          "unverified_count": 293,
+          "verified_percentage": 7.01,
+          "unverified_percentage": 6.25,
+          "difference_pct": 0.76,
+          "bias_towards": "neutral"
+        },
+        "no dependencies found": {
+          "verified_count": 46,
+          "unverified_count": 20,
+          "verified_percentage": 1.15,
+          "unverified_percentage": 0.43,
+          "difference_pct": 0.72,
+          "bias_towards": "neutral"
+        },
+        "branch protection is not maximal on development and all release branches": {
+          "verified_count": 43,
+          "unverified_count": 18,
+          "verified_percentage": 1.08,
+          "unverified_percentage": 0.38,
+          "difference_pct": 0.69,
+          "bias_towards": "neutral"
+        },
+        "Project has not signed or included provenance with any releases.": {
+          "verified_count": 13,
+          "unverified_count": 33,
+          "verified_percentage": 0.33,
+          "unverified_percentage": 0.7,
+          "difference_pct": -0.38,
+          "bias_towards": "neutral"
+        },
+        "license file not detected": {
+          "verified_count": 27,
+          "unverified_count": 15,
+          "verified_percentage": 0.68,
+          "unverified_percentage": 0.32,
+          "difference_pct": 0.36,
+          "bias_towards": "neutral"
+        },
+        "no SAST tool detected": {
+          "verified_count": 28,
+          "unverified_count": 18,
+          "verified_percentage": 0.7,
+          "unverified_percentage": 0.38,
+          "difference_pct": 0.32,
+          "bias_towards": "neutral"
+        },
+        "dependency not pinned by hash detected": {
+          "verified_count": 321,
+          "unverified_count": 390,
+          "verified_percentage": 8.04,
+          "unverified_percentage": 8.32,
+          "difference_pct": -0.29,
+          "bias_towards": "neutral"
+        },
+        "internal error: error during branchesHandler.setup: internal error: githubv4.Query: Resource not accessible by integration": {
+          "verified_count": 12,
+          "unverified_count": 1,
+          "verified_percentage": 0.3,
+          "unverified_percentage": 0.02,
+          "difference_pct": 0.28,
+          "bias_towards": "neutral"
+        },
+        "detected GitHub workflow tokens with excessive permissions": {
+          "verified_count": 302,
+          "unverified_count": 367,
+          "verified_percentage": 7.56,
+          "unverified_percentage": 7.83,
+          "difference_pct": -0.27,
+          "bias_towards": "neutral"
+        },
+        "project is archived": {
+          "verified_count": 18,
+          "unverified_count": 32,
+          "verified_percentage": 0.45,
+          "unverified_percentage": 0.68,
+          "difference_pct": -0.23,
+          "bias_towards": "neutral"
+        },
+        "internal error: internal error: invalid GitHub workflow:\n:13:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": {
+          "verified_count": 5,
+          "unverified_count": 0,
+          "verified_percentage": 0.13,
+          "unverified_percentage": 0.0,
+          "difference_pct": 0.13,
+          "bias_towards": "neutral"
+        },
+        "internal error: internal error: invalid GitHub workflow:\n:25:0: could not parse as YAML: mapping values are not allowed in this context [syntax-check]": {
+          "verified_count": 5,
+          "unverified_count": 0,
+          "verified_percentage": 0.13,
+          "unverified_percentage": 0.0,
+          "difference_pct": 0.13,
+          "bias_towards": "neutral"
+        },
+        "dangerous workflow patterns detected": {
+          "verified_count": 10,
+          "unverified_count": 6,
+          "verified_percentage": 0.25,
+          "unverified_percentage": 0.13,
+          "difference_pct": 0.12,
+          "bias_towards": "neutral"
+        },
+        "security policy file detected": {
+          "verified_count": 4,
+          "unverified_count": 10,
+          "verified_percentage": 0.1,
+          "unverified_percentage": 0.21,
+          "difference_pct": -0.11,
+          "bias_towards": "neutral"
+        },
+        "internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protection rules: https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md": {
+          "verified_count": 154,
+          "unverified_count": 185,
+          "verified_percentage": 3.86,
+          "unverified_percentage": 3.95,
+          "difference_pct": -0.09,
+          "bias_towards": "neutral"
+        },
+        "X existing vulnerabilities detected": {
+          "verified_count": 148,
+          "unverified_count": 177,
+          "verified_percentage": 3.71,
+          "unverified_percentage": 3.78,
+          "difference_pct": -0.07,
+          "bias_towards": "neutral"
+        },
+        "badge detected: InProgress": {
+          "verified_count": 0,
+          "unverified_count": 3,
+          "verified_percentage": 0.0,
+          "unverified_percentage": 0.06,
+          "difference_pct": -0.06,
+          "bias_towards": "neutral"
+        },
+        "Found no human activity in the last 14 changesets": {
+          "verified_count": 2,
+          "unverified_count": 0,
+          "verified_percentage": 0.05,
+          "unverified_percentage": 0.0,
+          "difference_pct": 0.05,
+          "bias_towards": "neutral"
+        },
+        "Found no human activity in the last 15 changesets": {
+          "verified_count": 3,
+          "unverified_count": 6,
+          "verified_percentage": 0.08,
+          "unverified_percentage": 0.13,
+          "difference_pct": -0.05,
+          "bias_towards": "neutral"
+        },
+        "binaries present in source code": {
+          "verified_count": 4,
+          "unverified_count": 7,
+          "verified_percentage": 0.1,
+          "unverified_percentage": 0.15,
+          "difference_pct": -0.05,
+          "bias_towards": "neutral"
+        },
+        "Found no human activity in the last 30 changesets": {
+          "verified_count": 3,
+          "unverified_count": 1,
+          "verified_percentage": 0.08,
+          "unverified_percentage": 0.02,
+          "difference_pct": 0.05,
+          "bias_towards": "neutral"
+        },
+        "Found no human activity in the last 16 changesets": {
+          "verified_count": 1,
+          "unverified_count": 0,
+          "verified_percentage": 0.03,
+          "unverified_percentage": 0.0,
+          "difference_pct": 0.03,
+          "bias_towards": "neutral"
+        },
+        "internal error: internal error: Client.Checks.ListCheckRunsForRef: error during graphqlHandler.setupCheckRuns: Although you appear to have the correct authorization credentials, the `bridgecrewio` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.": {
+          "verified_count": 1,
+          "unverified_count": 0,
+          "verified_percentage": 0.03,
+          "unverified_percentage": 0.0,
+          "difference_pct": 0.03,
+          "bias_towards": "neutral"
+        },
+        "Found no human activity in the last 23 changesets": {
+          "verified_count": 1,
+          "unverified_count": 0,
+          "verified_percentage": 0.03,
+          "unverified_percentage": 0.0,
+          "difference_pct": 0.03,
+          "bias_towards": "neutral"
+        },
+        "Found no human activity in the last 22 changesets": {
+          "verified_count": 1,
+          "unverified_count": 0,
+          "verified_percentage": 0.03,
+          "unverified_percentage": 0.0,
+          "difference_pct": 0.03,
+          "bias_towards": "neutral"
+        },
+        "internal error: error during GetBranch(releases/v1): error during branchesHandler.query: internal error: some github tokens can't read classic branch protection rules: https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md": {
+          "verified_count": 1,
+          "unverified_count": 0,
+          "verified_percentage": 0.03,
+          "unverified_percentage": 0.0,
+          "difference_pct": 0.03,
+          "bias_towards": "neutral"
+        },
+        "4 commit(s) out of 30 and 0 issue activity out of 0 found in the last 90 days -- score normalized to 3": {
+          "verified_count": 1,
+          "unverified_count": 0,
+          "verified_percentage": 0.03,
+          "unverified_percentage": 0.0,
+          "difference_pct": 0.03,
+          "bias_towards": "neutral"
+        },
+        "no published package detected": {
+          "verified_count": 1,
+          "unverified_count": 0,
+          "verified_percentage": 0.03,
+          "unverified_percentage": 0.0,
+          "difference_pct": 0.03,
+          "bias_towards": "neutral"
+        },
+        "Found no human activity in the last 25 changesets": {
+          "verified_count": 1,
+          "unverified_count": 0,
+          "verified_percentage": 0.03,
+          "unverified_percentage": 0.0,
+          "difference_pct": 0.03,
+          "bias_towards": "neutral"
+        },
+        "Found no human activity in the last 17 changesets": {
+          "verified_count": 0,
+          "unverified_count": 1,
+          "verified_percentage": 0.0,
+          "unverified_percentage": 0.02,
+          "difference_pct": -0.02,
+          "bias_towards": "neutral"
+        },
+        "internal error: error during GetBranch(master): error during branchesHandler.query: internal error: some github tokens can't read classic branch protection rules: https://github.com/ossf/scorecard-action/blob/main/docs/authentication/fine-grained-auth-token.md": {
+          "verified_count": 0,
+          "unverified_count": 1,
+          "verified_percentage": 0.0,
+          "unverified_percentage": 0.02,
+          "difference_pct": -0.02,
+          "bias_towards": "neutral"
+        },
+        "X out of X merged PRs checked by a CI test (partial)": {
+          "verified_count": 1,
+          "unverified_count": 1,
+          "verified_percentage": 0.03,
+          "unverified_percentage": 0.02,
+          "difference_pct": 0.0,
+          "bias_towards": "neutral"
+        },
+        "X out of the last X releases have signed artifacts": {
+          "verified_count": 1,
+          "unverified_count": 1,
+          "verified_percentage": 0.03,
+          "unverified_percentage": 0.02,
+          "difference_pct": 0.0,
+          "bias_towards": "neutral"
+        }
+      },
+      "verified_biased_reasons": {},
+      "unverified_biased_reasons": {}
+    }
+  },
+  "failure_clustering": {
+    "by_check": {
+      "Signed-Releases": {
+        "failure_rate_pct": 99.31,
+        "failure_count": 865,
+        "total_samples": 871,
+        "average_score": -0.88,
+        "tier": "critical",
+        "adoption_level": "very low"
+      },
+      "Token-Permissions": {
+        "failure_rate_pct": 90.13,
+        "failure_count": 785,
+        "total_samples": 871,
+        "average_score": 0.79,
+        "tier": "critical",
+        "adoption_level": "very low"
+      },
+      "SAST": {
+        "failure_rate_pct": 79.79,
+        "failure_count": 695,
+        "total_samples": 871,
+        "average_score": 1.79,
+        "tier": "critical",
+        "adoption_level": "very low"
+      },
+      "Dependency-Update-Tool": {
+        "failure_rate_pct": 0.0,
+        "failure_count": 0,
+        "total_samples": 20,
+        "average_score": 10.0,
+        "tier": "low_failure",
+        "adoption_level": "high"
+      },
+      "Packaging": {
+        "failure_rate_pct": 91.96,
+        "failure_count": 801,
+        "total_samples": 871,
+        "average_score": -0.12,
+        "tier": "critical",
+        "adoption_level": "very low"
+      },
+      "Security-Policy": {
+        "failure_rate_pct": 66.36,
+        "failure_count": 578,
+        "total_samples": 871,
+        "average_score": 3.35,
+        "tier": "high_failure",
+        "adoption_level": "low"
+      },
+      "Branch-Protection": {
+        "failure_rate_pct": 87.49,
+        "failure_count": 762,
+        "total_samples": 871,
+        "average_score": 0.52,
+        "tier": "critical",
+        "adoption_level": "very low"
+      },
+      "Vulnerabilities": {
+        "failure_rate_pct": 37.31,
+        "failure_count": 325,
+        "total_samples": 871,
+        "average_score": 6.06,
+        "tier": "moderate_failure",
+        "adoption_level": "moderate"
+      },
+      "Pinned-Dependencies": {
+        "failure_rate_pct": 89.44,
+        "failure_count": 779,
+        "total_samples": 871,
+        "average_score": 1.22,
+        "tier": "critical",
+        "adoption_level": "very low"
+      },
+      "Fuzzing": {
+        "failure_rate_pct": 99.54,
+        "failure_count": 867,
+        "total_samples": 871,
+        "average_score": 0.05,
+        "tier": "critical",
+        "adoption_level": "very low"
+      },
+      "CI-Tests": {
+        "failure_rate_pct": 10.0,
+        "failure_count": 2,
+        "total_samples": 20,
+        "average_score": 8.85,
+        "tier": "low_failure",
+        "adoption_level": "high"
+      },
+      "CII-Best-Practices": {
+        "failure_rate_pct": 99.2,
+        "failure_count": 864,
+        "total_samples": 871,
+        "average_score": 0.05,
+        "tier": "critical",
+        "adoption_level": "very low"
+      },
+      "Binary-Artifacts": {
+        "failure_rate_pct": 1.26,
+        "failure_count": 11,
+        "total_samples": 871,
+        "average_score": 9.79,
+        "tier": "low_failure",
+        "adoption_level": "high"
+      },
+      "Contributors": {
+        "failure_rate_pct": 0.0,
+        "failure_count": 0,
+        "total_samples": 20,
+        "average_score": 9.0,
+        "tier": "low_failure",
+        "adoption_level": "high"
+      },
+      "Code-Review": {
+        "failure_rate_pct": 62.8,
+        "failure_count": 547,
+        "total_samples": 871,
+        "average_score": 3.78,
+        "tier": "high_failure",
+        "adoption_level": "low"
+      },
+      "License": {
+        "failure_rate_pct": 4.82,
+        "failure_count": 42,
+        "total_samples": 871,
+        "average_score": 9.48,
+        "tier": "low_failure",
+        "adoption_level": "high"
+      },
+      "Maintained": {
+        "failure_rate_pct": 71.64,
+        "failure_count": 624,
+        "total_samples": 871,
+        "average_score": 2.84,
+        "tier": "high_failure",
+        "adoption_level": "low"
+      },
+      "Dangerous-Workflow": {
+        "failure_rate_pct": 15.15,
+        "failure_count": 132,
+        "total_samples": 871,
+        "average_score": 8.35,
+        "tier": "low_failure",
+        "adoption_level": "high"
+      }
+    },
+    "by_tier": {
+      "critical": [
+        "Signed-Releases",
+        "Token-Permissions",
+        "SAST",
+        "Packaging",
+        "Branch-Protection",
+        "Pinned-Dependencies",
+        "Fuzzing",
+        "CII-Best-Practices"
+      ],
+      "high_failure": [
+        "Security-Policy",
+        "Code-Review",
+        "Maintained"
+      ],
+      "moderate_failure": [
+        "Vulnerabilities"
+      ],
+      "low_failure": [
+        "Dependency-Update-Tool",
+        "CI-Tests",
+        "Binary-Artifacts",
+        "Contributors",
+        "License",
+        "Dangerous-Workflow"
+      ]
+    },
+    "summary": {
+      "critical_checks_count": 8,
+      "high_failure_checks_count": 3,
+      "moderate_failure_checks_count": 1,
+      "low_failure_checks_count": 6
+    }
+  },
+  "verification_impact": {
+    "all_checks": {
+      "Signed-Releases": {
+        "score_premium": -0.04,
+        "score_premium_pct": 0,
+        "failure_rate_reduction_pct": 0.04,
+        "verified_avg": -0.9,
+        "unverified_avg": -0.86,
+        "impact_level": "low"
+      },
+      "Token-Permissions": {
+        "score_premium": 0.31,
+        "score_premium_pct": 48.86,
+        "failure_rate_reduction_pct": 4.2,
+        "verified_avg": 0.95,
+        "unverified_avg": 0.64,
+        "impact_level": "low"
+      },
+      "SAST": {
+        "score_premium": 1.24,
+        "score_premium_pct": 105.06,
+        "failure_rate_reduction_pct": 13.48,
+        "verified_avg": 2.42,
+        "unverified_avg": 1.18,
+        "impact_level": "moderate"
+      },
+      "Dependency-Update-Tool": {
+        "score_premium": 0.0,
+        "score_premium_pct": 0.0,
+        "failure_rate_reduction_pct": 0.0,
+        "verified_avg": 10.0,
+        "unverified_avg": 10.0,
+        "impact_level": "low"
+      },
+      "Packaging": {
+        "score_premium": -0.41,
+        "score_premium_pct": -493.2,
+        "failure_rate_reduction_pct": -3.71,
+        "verified_avg": -0.33,
+        "unverified_avg": 0.08,
+        "impact_level": "low"
+      },
+      "Security-Policy": {
+        "score_premium": 3.86,
+        "score_premium_pct": 262.03,
+        "failure_rate_reduction_pct": 40.15,
+        "verified_avg": 5.34,
+        "unverified_avg": 1.47,
+        "impact_level": "high"
+      },
+      "Branch-Protection": {
+        "score_premium": 1.35,
+        "score_premium_pct": 0,
+        "failure_rate_reduction_pct": 19.73,
+        "verified_avg": 1.21,
+        "unverified_avg": -0.13,
+        "impact_level": "moderate"
+      },
+      "Vulnerabilities": {
+        "score_premium": 0.45,
+        "score_premium_pct": 7.73,
+        "failure_rate_reduction_pct": 4.69,
+        "verified_avg": 6.29,
+        "unverified_avg": 5.84,
+        "impact_level": "low"
+      },
+      "Pinned-Dependencies": {
+        "score_premium": 0.46,
+        "score_premium_pct": 46.5,
+        "failure_rate_reduction_pct": 4.69,
+        "verified_avg": 1.46,
+        "unverified_avg": 0.99,
+        "impact_level": "low"
+      },
+      "Fuzzing": {
+        "score_premium": -0.04,
+        "score_premium_pct": -64.86,
+        "failure_rate_reduction_pct": -0.44,
+        "verified_avg": 0.02,
+        "unverified_avg": 0.07,
+        "impact_level": "low"
+      },
+      "CI-Tests": {
+        "score_premium": 2.61,
+        "score_premium_pct": 40.17,
+        "failure_rate_reduction_pct": 44.44,
+        "verified_avg": 9.11,
+        "unverified_avg": 6.5,
+        "impact_level": "high"
+      },
+      "CII-Best-Practices": {
+        "score_premium": 0.0,
+        "score_premium_pct": 0.4,
+        "failure_rate_reduction_pct": 0.27,
+        "verified_avg": 0.05,
+        "unverified_avg": 0.05,
+        "impact_level": "low"
+      },
+      "Binary-Artifacts": {
+        "score_premium": 0.11,
+        "score_premium_pct": 1.09,
+        "failure_rate_reduction_pct": 0.62,
+        "verified_avg": 9.85,
+        "unverified_avg": 9.74,
+        "impact_level": "low"
+      },
+      "Contributors": {
+        "score_premium": -1.11,
+        "score_premium_pct": -11.11,
+        "failure_rate_reduction_pct": 0.0,
+        "verified_avg": 8.89,
+        "unverified_avg": 10.0,
+        "impact_level": "moderate"
+      },
+      "Code-Review": {
+        "score_premium": 2.49,
+        "score_premium_pct": 96.9,
+        "failure_rate_reduction_pct": 30.92,
+        "verified_avg": 5.06,
+        "unverified_avg": 2.57,
+        "impact_level": "high"
+      },
+      "License": {
+        "score_premium": -0.32,
+        "score_premium_pct": -3.29,
+        "failure_rate_reduction_pct": -3.01,
+        "verified_avg": 9.32,
+        "unverified_avg": 9.64,
+        "impact_level": "low"
+      },
+      "Maintained": {
+        "score_premium": 0.14,
+        "score_premium_pct": 5.17,
+        "failure_rate_reduction_pct": 2.19,
+        "verified_avg": 2.92,
+        "unverified_avg": 2.77,
+        "impact_level": "low"
+      },
+      "Dangerous-Workflow": {
+        "score_premium": -0.84,
+        "score_premium_pct": -9.55,
+        "failure_rate_reduction_pct": -7.69,
+        "verified_avg": 7.92,
+        "unverified_avg": 8.76,
+        "impact_level": "low"
+      }
+    },
+    "high_impact_checks": {
+      "Security-Policy": {
+        "score_premium": 3.86,
+        "score_premium_pct": 262.03,
+        "failure_rate_reduction_pct": 40.15,
+        "verified_avg": 5.34,
+        "unverified_avg": 1.47,
+        "impact_level": "high"
+      },
+      "CI-Tests": {
+        "score_premium": 2.61,
+        "score_premium_pct": 40.17,
+        "failure_rate_reduction_pct": 44.44,
+        "verified_avg": 9.11,
+        "unverified_avg": 6.5,
+        "impact_level": "high"
+      },
+      "Code-Review": {
+        "score_premium": 2.49,
+        "score_premium_pct": 96.9,
+        "failure_rate_reduction_pct": 30.92,
+        "verified_avg": 5.06,
+        "unverified_avg": 2.57,
+        "impact_level": "high"
+      },
+      "Branch-Protection": {
+        "score_premium": 1.35,
+        "score_premium_pct": 0,
+        "failure_rate_reduction_pct": 19.73,
+        "verified_avg": 1.21,
+        "unverified_avg": -0.13,
+        "impact_level": "moderate"
+      },
+      "SAST": {
+        "score_premium": 1.24,
+        "score_premium_pct": 105.06,
+        "failure_rate_reduction_pct": 13.48,
+        "verified_avg": 2.42,
+        "unverified_avg": 1.18,
+        "impact_level": "moderate"
+      }
+    }
+  },
+  "risk_profiling": {
+    "high_risk_repos": [
+      {
+        "repo": "lowlighter/metrics",
+        "stars": 15721,
+        "score": 4,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "mikefarah/yq",
+        "stars": 14499,
+        "score": 4.9,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "ophub/amlogic-s9xxx-armbian",
+        "stars": 8200,
+        "score": 4,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "di-sukharev/opencommit",
+        "stars": 7047,
+        "score": 4.4,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "appleboy/ssh-action",
+        "stars": 5857,
+        "score": 4.1,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "Platane/snk",
+        "stars": 5423,
+        "score": 3.5,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "peaceiris/actions-gh-pages",
+        "stars": 5161,
+        "score": 3.3,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "SamKirkland/FTP-Deploy-Action",
+        "stars": 4666,
+        "score": 3.3,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "anc95/ChatGPT-CodeReview",
+        "stars": 4385,
+        "score": 3.5,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "release-drafter/release-drafter",
+        "stars": 3789,
+        "score": 3.4,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "fastai/fastpages",
+        "stars": 3545,
+        "score": 3.9,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "gautamkrishnar/blog-post-workflow",
+        "stars": 3208,
+        "score": 4.4,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "vn7n24fzkq/github-profile-summary-cards",
+        "stars": 3181,
+        "score": 3.5,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "dorny/paths-filter",
+        "stars": 2801,
+        "score": 3.2,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "src-d/hercules",
+        "stars": 2750,
+        "score": 2.3,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "ophub/amlogic-s9xxx-openwrt",
+        "stars": 2548,
+        "score": 4.2,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "subosito/flutter-action",
+        "stars": 2526,
+        "score": 4.8,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "stefanzweifel/git-auto-commit-action",
+        "stars": 2422,
+        "score": 4.6,
+        "category": "unverified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "oxsecurity/megalinter",
+        "stars": 2330,
+        "score": 4,
+        "category": "verified",
+        "risk_level": "high"
+      },
+      {
+        "repo": "josephburnett/jd",
+        "stars": 2133,
+        "score": 4,
+        "category": "unverified",
+        "risk_level": "high"
+      }
+    ],
+    "low_risk_repos": [
+      {
+        "repo": "ossf/scorecard-action",
+        "stars": 339,
+        "score": 9.1,
+        "category": "verified"
+      },
+      {
+        "repo": "sigstore/gh-action-sigstore-python",
+        "stars": 63,
+        "score": 8.8,
+        "category": "verified"
+      },
+      {
+        "repo": "step-security/harden-runner",
+        "stars": 921,
+        "score": 8.6,
+        "category": "verified"
+      },
+      {
+        "repo": "github/issue-metrics",
+        "stars": 510,
+        "score": 8.4,
+        "category": "verified"
+      },
+      {
+        "repo": "github/evergreen",
+        "stars": 217,
+        "score": 8.4,
+        "category": "verified"
+      },
+      {
+        "repo": "github/measure-innersource",
+        "stars": 13,
+        "score": 8.3,
+        "category": "verified"
+      },
+      {
+        "repo": "fastify/github-action-merge-dependabot",
+        "stars": 178,
+        "score": 8.3,
+        "category": "unverified"
+      },
+      {
+        "repo": "github/contributors",
+        "stars": 129,
+        "score": 8.2,
+        "category": "verified"
+      },
+      {
+        "repo": "github/accessibility-alt-text-bot",
+        "stars": 91,
+        "score": 8,
+        "category": "verified"
+      },
+      {
+        "repo": "erlef/mix-dependency-submission",
+        "stars": 38,
+        "score": 8,
+        "category": "verified"
+      }
+    ],
+    "thresholds": {
+      "high_popularity_stars": 1000,
+      "low_score": 5.0,
+      "high_score": 7.0
+    },
+    "summary": {
+      "high_risk_count": 52,
+      "low_risk_count": 41
+    }
+  },
+  "actionable_recommendations": {
+    "quick_wins": [
+      {
+        "check": "Token-Permissions",
+        "failure_rate_pct": 90.13,
+        "potential_score_gain": 0.31,
+        "difficulty": "medium",
+        "priority": "medium"
+      },
+      {
+        "check": "Pinned-Dependencies",
+        "failure_rate_pct": 89.44,
+        "potential_score_gain": 0.46,
+        "difficulty": "medium",
+        "priority": "medium"
+      },
+      {
+        "check": "Branch-Protection",
+        "failure_rate_pct": 87.49,
+        "potential_score_gain": 1.35,
+        "difficulty": "medium",
+        "priority": "medium"
+      },
+      {
+        "check": "Security-Policy",
+        "failure_rate_pct": 66.36,
+        "potential_score_gain": 3.86,
+        "difficulty": "easy",
+        "priority": "high"
+      }
+    ],
+    "hard_improvements": [
+      {
+        "check": "Fuzzing",
+        "failure_rate_pct": 99.54,
+        "potential_score_gain": 0.04,
+        "difficulty": "hard"
+      },
+      {
+        "check": "Signed-Releases",
+        "failure_rate_pct": 99.31,
+        "potential_score_gain": 0.04,
+        "difficulty": "hard"
+      },
+      {
+        "check": "CII-Best-Practices",
+        "failure_rate_pct": 99.2,
+        "potential_score_gain": 0.0,
+        "difficulty": "hard"
+      },
+      {
+        "check": "Packaging",
+        "failure_rate_pct": 91.96,
+        "potential_score_gain": 0.41,
+        "difficulty": "hard"
+      },
+      {
+        "check": "SAST",
+        "failure_rate_pct": 79.79,
+        "potential_score_gain": 1.24,
+        "difficulty": "hard"
+      }
+    ]
+  },
+  "outlier_detection": {
+    "exceptional_high_performers": [
+      {
+        "repo": "ossf/scorecard-action",
+        "score": 9.1,
+        "stars": 339,
+        "category": "verified"
+      },
+      {
+        "repo": "sigstore/gh-action-sigstore-python",
+        "score": 8.8,
+        "stars": 63,
+        "category": "verified"
+      },
+      {
+        "repo": "step-security/harden-runner",
+        "score": 8.6,
+        "stars": 921,
+        "category": "verified"
+      },
+      {
+        "repo": "github/issue-metrics",
+        "score": 8.4,
+        "stars": 510,
+        "category": "verified"
+      },
+      {
+        "repo": "github/evergreen",
+        "score": 8.4,
+        "stars": 217,
+        "category": "verified"
+      },
+      {
+        "repo": "github/measure-innersource",
+        "score": 8.3,
+        "stars": 13,
+        "category": "verified"
+      },
+      {
+        "repo": "fastify/github-action-merge-dependabot",
+        "score": 8.3,
+        "stars": 178,
+        "category": "unverified"
+      },
+      {
+        "repo": "github/contributors",
+        "score": 8.2,
+        "stars": 129,
+        "category": "verified"
+      },
+      {
+        "repo": "github/accessibility-alt-text-bot",
+        "score": 8,
+        "stars": 91,
+        "category": "verified"
+      },
+      {
+        "repo": "erlef/mix-dependency-submission",
+        "score": 8,
+        "stars": 38,
+        "category": "verified"
+      }
+    ],
+    "exceptional_low_performers": [
+      {
+        "repo": "coderabbitai/ai-pr-reviewer",
+        "score": 1.4,
+        "stars": 1978,
+        "category": "verified"
+      },
+      {
+        "repo": "trilom/file-changes-action",
+        "score": 1.4,
+        "stars": 167,
+        "category": "unverified"
+      },
+      {
+        "repo": "Asana/comment-on-task-github-action",
+        "score": 1.6,
+        "stars": 36,
+        "category": "verified"
+      },
+      {
+        "repo": "Asana/create-app-attachment-github-action",
+        "score": 1.6,
+        "stars": 37,
+        "category": "verified"
+      },
+      {
+        "repo": "RapidAPI/gh-api-testing-trigger",
+        "score": 1.6,
+        "stars": 27,
+        "category": "verified"
+      },
+      {
+        "repo": "solidify/github-action-game-of-life",
+        "score": 1.6,
+        "stars": 14,
+        "category": "verified"
+      },
+      {
+        "repo": "foo-software/lighthouse-check-action",
+        "score": 1.6,
+        "stars": 502,
+        "category": "unverified"
+      },
+      {
+        "repo": "ahmadnassri/action-dependabot-auto-merge",
+        "score": 1.6,
+        "stars": 356,
+        "category": "unverified"
+      }
+    ],
+    "statistics": {
+      "mean_score": 4.36,
+      "std_deviation": 1.35,
+      "high_outlier_threshold": 7.07,
+      "low_outlier_threshold": 1.66
+    }
+  },
+  "check_correlation_matrix": {
+    "strong_correlations": {
+      "SAST___Security-Policy": {
+        "check1": "SAST",
+        "check2": "Security-Policy",
+        "correlation": 0.415,
+        "interpretation": "Moderate positive correlation",
+        "sample_size": 871,
+        "sample_percentage": 100.0
+      },
+      "SAST___Maintained": {
+        "check1": "SAST",
+        "check2": "Maintained",
+        "correlation": 0.367,
+        "interpretation": "Weak positive correlation",
+        "sample_size": 871,
+        "sample_percentage": 100.0
+      },
+      "Security-Policy___Branch-Protection": {
+        "check1": "Security-Policy",
+        "check2": "Branch-Protection",
+        "correlation": 0.323,
+        "interpretation": "Weak positive correlation",
+        "sample_size": 871,
+        "sample_percentage": 100.0
+      },
+      "Pinned-Dependencies___Maintained": {
+        "check1": "Pinned-Dependencies",
+        "check2": "Maintained",
+        "correlation": 0.319,
+        "interpretation": "Weak positive correlation",
+        "sample_size": 871,
+        "sample_percentage": 100.0
+      }
+    },
+    "total_check_pairs_analyzed": 13,
+    "significant_pairs_count": 4,
+    "total_repos_with_checks": 871,
+    "min_sample_size_threshold": 435
+  },
+  "key_insights": [
+    "✓ Verified actions have 20.3% higher overall scores than unverified",
+    "✓ Verified actions score better in 11/18 (61.1%) security checks",
+    "✓ Biggest verified advantage: Security-Policy (+3.9 points)",
+    "✗ Biggest verified disadvantage: Contributors (-1.1 points)",
+    "⭐ Star count has almost NO correlation with security scores for verified actions (r=0.193)",
+    "⭐ Star count has almost NO correlation with security scores for unverified actions (r=0.105)",
+    "⚠️ Most problematic check: Fuzzing (867 failures)",
+    "⚠️ Common issue: \"project is not fuzzed\""
+  ],
+  "score_distributions": {
+    "verified": {
+      "excellent (8-10)": 9,
+      "good (6-7.9)": 77,
+      "moderate (4-5.9)": 209,
+      "poor (0-3.9)": 129
+    },
+    "unverified": {
+      "excellent (8-10)": 1,
+      "good (6-7.9)": 26,
+      "moderate (4-5.9)": 165,
+      "poor (0-3.9)": 255
+    }
+  },
+  "verified_strengths": {
+    "Security-Policy": {
+      "verified_avg": 5.34,
+      "unverified_avg": 1.47,
+      "difference": 3.86,
+      "difference_pct": 262.03,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "CI-Tests": {
+      "verified_avg": 9.11,
+      "unverified_avg": 6.5,
+      "difference": 2.61,
+      "difference_pct": 40.17,
+      "verified_better": true,
+      "verified_count": 18,
+      "unverified_count": 2,
+      "verified_occurrence_pct": 4.25,
+      "unverified_occurrence_pct": 0.45
+    },
+    "Code-Review": {
+      "verified_avg": 5.06,
+      "unverified_avg": 2.57,
+      "difference": 2.49,
+      "difference_pct": 96.9,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Branch-Protection": {
+      "verified_avg": 1.21,
+      "unverified_avg": -0.13,
+      "difference": 1.35,
+      "difference_pct": 0,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "SAST": {
+      "verified_avg": 2.42,
+      "unverified_avg": 1.18,
+      "difference": 1.24,
+      "difference_pct": 105.06,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    }
+  },
+  "verified_weaknesses": {
+    "Contributors": {
+      "verified_avg": 8.89,
+      "unverified_avg": 10.0,
+      "difference": -1.11,
+      "difference_pct": -11.11,
+      "verified_better": false,
+      "verified_count": 18,
+      "unverified_count": 2,
+      "verified_occurrence_pct": 4.25,
+      "unverified_occurrence_pct": 0.45
+    },
+    "Dangerous-Workflow": {
+      "verified_avg": 7.92,
+      "unverified_avg": 8.76,
+      "difference": -0.84,
+      "difference_pct": -9.55,
+      "verified_better": false,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    }
+  },
+  "similar_performance": {
+    "Signed-Releases": {
+      "verified_avg": -0.9,
+      "unverified_avg": -0.86,
+      "difference": -0.04,
+      "difference_pct": 0,
+      "verified_better": false,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Token-Permissions": {
+      "verified_avg": 0.95,
+      "unverified_avg": 0.64,
+      "difference": 0.31,
+      "difference_pct": 48.86,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Dependency-Update-Tool": {
+      "verified_avg": 10.0,
+      "unverified_avg": 10.0,
+      "difference": 0.0,
+      "difference_pct": 0.0,
+      "verified_better": false,
+      "verified_count": 18,
+      "unverified_count": 2,
+      "verified_occurrence_pct": 4.25,
+      "unverified_occurrence_pct": 0.45
+    },
+    "Packaging": {
+      "verified_avg": -0.33,
+      "unverified_avg": 0.08,
+      "difference": -0.41,
+      "difference_pct": -493.2,
+      "verified_better": false,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Vulnerabilities": {
+      "verified_avg": 6.29,
+      "unverified_avg": 5.84,
+      "difference": 0.45,
+      "difference_pct": 7.73,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Pinned-Dependencies": {
+      "verified_avg": 1.46,
+      "unverified_avg": 0.99,
+      "difference": 0.46,
+      "difference_pct": 46.5,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Fuzzing": {
+      "verified_avg": 0.02,
+      "unverified_avg": 0.07,
+      "difference": -0.04,
+      "difference_pct": -64.86,
+      "verified_better": false,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "CII-Best-Practices": {
+      "verified_avg": 0.05,
+      "unverified_avg": 0.05,
+      "difference": 0.0,
+      "difference_pct": 0.4,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Binary-Artifacts": {
+      "verified_avg": 9.85,
+      "unverified_avg": 9.74,
+      "difference": 0.11,
+      "difference_pct": 1.09,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "License": {
+      "verified_avg": 9.32,
+      "unverified_avg": 9.64,
+      "difference": -0.32,
+      "difference_pct": -3.29,
+      "verified_better": false,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Maintained": {
+      "verified_avg": 2.92,
+      "unverified_avg": 2.77,
+      "difference": 0.14,
+      "difference_pct": 5.17,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    }
+  },
+  "detailed_check_comparison": {
+    "Signed-Releases": {
+      "verified_avg": -0.9,
+      "unverified_avg": -0.86,
+      "difference": -0.04,
+      "difference_pct": 0,
+      "verified_better": false,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Token-Permissions": {
+      "verified_avg": 0.95,
+      "unverified_avg": 0.64,
+      "difference": 0.31,
+      "difference_pct": 48.86,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "SAST": {
+      "verified_avg": 2.42,
+      "unverified_avg": 1.18,
+      "difference": 1.24,
+      "difference_pct": 105.06,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Dependency-Update-Tool": {
+      "verified_avg": 10.0,
+      "unverified_avg": 10.0,
+      "difference": 0.0,
+      "difference_pct": 0.0,
+      "verified_better": false,
+      "verified_count": 18,
+      "unverified_count": 2,
+      "verified_occurrence_pct": 4.25,
+      "unverified_occurrence_pct": 0.45
+    },
+    "Packaging": {
+      "verified_avg": -0.33,
+      "unverified_avg": 0.08,
+      "difference": -0.41,
+      "difference_pct": -493.2,
+      "verified_better": false,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Security-Policy": {
+      "verified_avg": 5.34,
+      "unverified_avg": 1.47,
+      "difference": 3.86,
+      "difference_pct": 262.03,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Branch-Protection": {
+      "verified_avg": 1.21,
+      "unverified_avg": -0.13,
+      "difference": 1.35,
+      "difference_pct": 0,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Vulnerabilities": {
+      "verified_avg": 6.29,
+      "unverified_avg": 5.84,
+      "difference": 0.45,
+      "difference_pct": 7.73,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Pinned-Dependencies": {
+      "verified_avg": 1.46,
+      "unverified_avg": 0.99,
+      "difference": 0.46,
+      "difference_pct": 46.5,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Fuzzing": {
+      "verified_avg": 0.02,
+      "unverified_avg": 0.07,
+      "difference": -0.04,
+      "difference_pct": -64.86,
+      "verified_better": false,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "CI-Tests": {
+      "verified_avg": 9.11,
+      "unverified_avg": 6.5,
+      "difference": 2.61,
+      "difference_pct": 40.17,
+      "verified_better": true,
+      "verified_count": 18,
+      "unverified_count": 2,
+      "verified_occurrence_pct": 4.25,
+      "unverified_occurrence_pct": 0.45
+    },
+    "CII-Best-Practices": {
+      "verified_avg": 0.05,
+      "unverified_avg": 0.05,
+      "difference": 0.0,
+      "difference_pct": 0.4,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Binary-Artifacts": {
+      "verified_avg": 9.85,
+      "unverified_avg": 9.74,
+      "difference": 0.11,
+      "difference_pct": 1.09,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Contributors": {
+      "verified_avg": 8.89,
+      "unverified_avg": 10.0,
+      "difference": -1.11,
+      "difference_pct": -11.11,
+      "verified_better": false,
+      "verified_count": 18,
+      "unverified_count": 2,
+      "verified_occurrence_pct": 4.25,
+      "unverified_occurrence_pct": 0.45
+    },
+    "Code-Review": {
+      "verified_avg": 5.06,
+      "unverified_avg": 2.57,
+      "difference": 2.49,
+      "difference_pct": 96.9,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "License": {
+      "verified_avg": 9.32,
+      "unverified_avg": 9.64,
+      "difference": -0.32,
+      "difference_pct": -3.29,
+      "verified_better": false,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Maintained": {
+      "verified_avg": 2.92,
+      "unverified_avg": 2.77,
+      "difference": 0.14,
+      "difference_pct": 5.17,
+      "verified_better": true,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    },
+    "Dangerous-Workflow": {
+      "verified_avg": 7.92,
+      "unverified_avg": 8.76,
+      "difference": -0.84,
+      "difference_pct": -9.55,
+      "verified_better": false,
+      "verified_count": 424,
+      "unverified_count": 447,
+      "verified_occurrence_pct": 100.0,
+      "unverified_occurrence_pct": 100.0
+    }
+  }
+}

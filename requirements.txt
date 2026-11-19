@@ -1,0 +1,4 @@
+aiohttp
+lxml
+requests
+selectolax<1.0  # 2.action_repos_crawler.py uses the Modest backend, removed in 1.0

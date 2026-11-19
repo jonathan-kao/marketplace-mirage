@@ -1,0 +1,329 @@
+============================================================
+OpenSSF Scorecard Insight Analysis - Summary Report
+============================================================
+
+============================================================
+CONCLUSION
+============================================================
+Verified actions are MORE secure
+
+Overall Score Difference: +0.81 points (+20.3%)
+  Verified Average: 4.78 (n=424)
+  Unverified Average: 3.97 (n=447)
+
+============================================================
+CHECK OCCURRENCE ANALYSIS
+============================================================
+
+Total Repos: Verified=424, Unverified=447
+
+Check Availability by Category:
+Check Name                     Verified                  Unverified                Diff
+------------------------------ ------------------------- ------------------------- ----------
+Dependency-Update-Tool          18/424 (  4.25%)           2/447 (  0.45%)          +3.80%
+CI-Tests                        18/424 (  4.25%)           2/447 (  0.45%)          +3.80%
+Contributors                    18/424 (  4.25%)           2/447 (  0.45%)          +3.80%
+Signed-Releases                424/424 (100.00%)         447/447 (100.00%)          +0.00%
+Token-Permissions              424/424 (100.00%)         447/447 (100.00%)          +0.00%
+SAST                           424/424 (100.00%)         447/447 (100.00%)          +0.00%
+Packaging                      424/424 (100.00%)         447/447 (100.00%)          +0.00%
+Security-Policy                424/424 (100.00%)         447/447 (100.00%)          +0.00%
+Branch-Protection              424/424 (100.00%)         447/447 (100.00%)          +0.00%
+Vulnerabilities                424/424 (100.00%)         447/447 (100.00%)          +0.00%
+Pinned-Dependencies            424/424 (100.00%)         447/447 (100.00%)          +0.00%
+Fuzzing                        424/424 (100.00%)         447/447 (100.00%)          +0.00%
+CII-Best-Practices             424/424 (100.00%)         447/447 (100.00%)          +0.00%
+Binary-Artifacts               424/424 (100.00%)         447/447 (100.00%)          +0.00%
+Code-Review                    424/424 (100.00%)         447/447 (100.00%)          +0.00%
+License                        424/424 (100.00%)         447/447 (100.00%)          +0.00%
+Maintained                     424/424 (100.00%)         447/447 (100.00%)          +0.00%
+Dangerous-Workflow             424/424 (100.00%)         447/447 (100.00%)          +0.00%
+
+============================================================
+KEY INSIGHTS
+============================================================
+  ✓ Verified actions have 20.3% higher overall scores than unverified
+  ✓ Verified actions score better in 11/18 (61.1%) security checks
+  ✓ Biggest verified advantage: Security-Policy (+3.9 points)
+  ✗ Biggest verified disadvantage: Contributors (-1.1 points)
+  ⭐ Star count has almost NO correlation with security scores for verified actions (r=0.193)
+  ⭐ Star count has almost NO correlation with security scores for unverified actions (r=0.105)
+  ⚠️ Most problematic check: Fuzzing (867 failures)
+  ⚠️ Common issue: "project is not fuzzed"
+
+============================================================
+SCORE DISTRIBUTIONS
+============================================================
+
+Verified:
+  excellent (8-10): 9 repos (2.1%)
+  good (6-7.9): 77 repos (18.2%)
+  moderate (4-5.9): 209 repos (49.3%)
+  poor (0-3.9): 129 repos (30.4%)
+
+Unverified:
+  excellent (8-10): 1 repos (0.2%)
+  good (6-7.9): 26 repos (5.8%)
+  moderate (4-5.9): 165 repos (36.9%)
+  poor (0-3.9): 255 repos (57.0%)
+
+============================================================
+VERIFIED STRENGTHS (> 0.5 point advantage)
+============================================================
+  Security-Policy: +3.86 (5.3 vs 1.5)
+  CI-Tests (low sample): +2.61 (9.1 vs 6.5)
+  Code-Review: +2.49 (5.1 vs 2.6)
+  Branch-Protection: +1.35 (1.2 vs -0.1)
+  SAST: +1.24 (2.4 vs 1.2)
+
+============================================================
+VERIFIED WEAKNESSES (< -0.5 point disadvantage)
+============================================================
+  Contributors (low sample): -1.11 (8.9 vs 10.0)
+  Dangerous-Workflow: -0.84 (7.9 vs 8.8)
+
+============================================================
+STAR-SCORE CORRELATION ANALYSIS
+============================================================
+
+Verified Actions:
+  Correlation: 0.193
+  Interpretation: Very weak positive correlation
+  Sample size: 424 repos
+
+Unverified Actions:
+  Correlation: 0.105
+  Interpretation: Very weak positive correlation
+  Sample size: 447 repos
+
+Overall (All Actions):
+  Correlation: 0.113
+  Interpretation: Very weak positive correlation
+  Sample size: 871 repos
+
+💡 Conclusion: Popularity (stars) does NOT predict security quality!
+
+============================================================
+COMMON FAILURE REASONS ANALYSIS
+============================================================
+
+Top 5 Most Problematic Checks:
+
+1. Fuzzing
+   Total failures (score < 5): 867
+   Most common reason: "project is not fuzzed"
+   Occurrences of this reason: 867
+
+2. Signed-Releases
+   Total failures (score < 5): 865
+   Most common reason: "no releases found"
+   Occurrences of this reason: 817
+
+3. CII-Best-Practices
+   Total failures (score < 5): 864
+   Most common reason: "no effort to earn an OpenSSF best practices badge detected"
+   Occurrences of this reason: 861
+
+4. Packaging
+   Total failures (score < 5): 801
+   Most common reason: "packaging workflow not detected"
+   Occurrences of this reason: 798
+
+5. Token-Permissions
+   Total failures (score < 5): 785
+   Most common reason: "detected GitHub workflow tokens with excessive permissions"
+   Occurrences of this reason: 669
+
+============================================================
+TOP FAILURE REASONS (Most Frequent)
+============================================================
+1. "project is not fuzzed" - 867 occurrences
+2. "no effort to earn an OpenSSF best practices badge detected" - 861 occurrences
+3. "no releases found" - 817 occurrences
+4. "packaging workflow not detected" - 798 occurrences
+5. "dependency not pinned by hash detected" - 711 occurrences
+6. "detected GitHub workflow tokens with excessive permissions" - 669 occurrences
+7. "SAST tool is not run on all commits (partial)" - 646 occurrences
+8. "X commit(s) and X issue activity found in the last 90 days" - 573 occurrences
+9. "security policy file not detected" - 564 occurrences
+10. "Found X/X approved changesets (partial code review)" - 527 occurrences
+
+============================================================
+REASON BIAS ANALYSIS (Verified vs Unverified)
+============================================================
+
+Total low-score samples:
+  Verified: 3994
+  Unverified: 4685
+
+No significant bias detected - verified and unverified have similar failure patterns.
+
+============================================================
+FAILURE CLUSTERING ANALYSIS
+============================================================
+
+Critical Checks (>=75% failure rate): 8
+  - Signed-Releases: 99.3% fail (avg: -0.9)
+  - Token-Permissions: 90.1% fail (avg: 0.8)
+  - SAST: 79.8% fail (avg: 1.8)
+  - Packaging: 92.0% fail (avg: -0.1)
+  - Branch-Protection: 87.5% fail (avg: 0.5)
+  - Pinned-Dependencies: 89.4% fail (avg: 1.2)
+  - Fuzzing: 99.5% fail (avg: 0.1)
+  - CII-Best-Practices: 99.2% fail (avg: 0.1)
+
+High Failure Checks (50-75%): 3
+  - Security-Policy: 66.4% fail (avg: 3.4)
+  - Code-Review: 62.8% fail (avg: 3.8)
+  - Maintained: 71.6% fail (avg: 2.8)
+
+============================================================
+VERIFICATION IMPACT PER CHECK
+============================================================
+
+Top 5 Checks Where Verification Matters Most:
+
+1. Security-Policy
+   Score Premium: +3.86 points (+262.0%)
+   Failure Rate Reduction: 40.1%
+   Verified avg: 5.3, Unverified avg: 1.5
+
+2. CI-Tests (low sample)
+   Score Premium: +2.61 points (+40.2%)
+   Failure Rate Reduction: 44.4%
+   Verified avg: 9.1, Unverified avg: 6.5
+
+3. Code-Review
+   Score Premium: +2.49 points (+96.9%)
+   Failure Rate Reduction: 30.9%
+   Verified avg: 5.1, Unverified avg: 2.6
+
+4. Branch-Protection
+   Score Premium: +1.35 points (+0.0%)
+   Failure Rate Reduction: 19.7%
+   Verified avg: 1.2, Unverified avg: -0.1
+
+5. SAST
+   Score Premium: +1.24 points (+105.1%)
+   Failure Rate Reduction: 13.5%
+   Verified avg: 2.4, Unverified avg: 1.2
+
+============================================================
+RISK PROFILING
+============================================================
+
+⚠️  HIGH RISK: Popular Actions with Low Security (52 total)
+    (>=1000 stars, score <5.0)
+
+Top 10 High Risk:
+ 1. lowlighter/metrics                            15,721 ⭐ | Score: 4.0 | unverified
+ 2. mikefarah/yq                                  14,499 ⭐ | Score: 4.9 | unverified
+ 3. ophub/amlogic-s9xxx-armbian                    8,200 ⭐ | Score: 4.0 | unverified
+ 4. di-sukharev/opencommit                         7,047 ⭐ | Score: 4.4 | unverified
+ 5. appleboy/ssh-action                            5,857 ⭐ | Score: 4.1 | unverified
+ 6. Platane/snk                                    5,423 ⭐ | Score: 3.5 | unverified
+ 7. peaceiris/actions-gh-pages                     5,161 ⭐ | Score: 3.3 | unverified
+ 8. SamKirkland/FTP-Deploy-Action                  4,666 ⭐ | Score: 3.3 | unverified
+ 9. anc95/ChatGPT-CodeReview                       4,385 ⭐ | Score: 3.5 | unverified
+10. release-drafter/release-drafter                3,789 ⭐ | Score: 3.4 | unverified
+
+✅ LOW RISK: High Security Actions (41 total)
+    (score >=7.0)
+
+Top 10 Best Performers:
+ 1. ossf/scorecard-action                            339 ⭐ | Score: 9.1 | verified
+ 2. sigstore/gh-action-sigstore-python                63 ⭐ | Score: 8.8 | verified
+ 3. step-security/harden-runner                      921 ⭐ | Score: 8.6 | verified
+ 4. github/issue-metrics                             510 ⭐ | Score: 8.4 | verified
+ 5. github/evergreen                                 217 ⭐ | Score: 8.4 | verified
+ 6. github/measure-innersource                        13 ⭐ | Score: 8.3 | verified
+ 7. fastify/github-action-merge-dependabot           178 ⭐ | Score: 8.3 | unverified
+ 8. github/contributors                              129 ⭐ | Score: 8.2 | verified
+ 9. github/accessibility-alt-text-bot                 91 ⭐ | Score: 8.0 | verified
+10. erlef/mix-dependency-submission                   38 ⭐ | Score: 8.0 | verified
+
+============================================================
+ACTIONABLE RECOMMENDATIONS
+============================================================
+
+🎯 QUICK WINS (Easy Improvements):
+1. Token-Permissions [medium]
+   - Failure rate: 90.1%
+   - Potential gain: +0.31 points
+   - Priority: medium
+2. Pinned-Dependencies [medium]
+   - Failure rate: 89.4%
+   - Potential gain: +0.46 points
+   - Priority: medium
+3. Branch-Protection [medium]
+   - Failure rate: 87.5%
+   - Potential gain: +1.35 points
+   - Priority: medium
+4. Security-Policy [easy]
+   - Failure rate: 66.4%
+   - Potential gain: +3.86 points
+   - Priority: high
+
+🔧 HARD IMPROVEMENTS (Require Effort):
+1. Fuzzing [hard]
+   - Failure rate: 99.5%
+   - Potential gain: +0.04 points
+2. Signed-Releases [hard]
+   - Failure rate: 99.3%
+   - Potential gain: +0.04 points
+3. CII-Best-Practices [hard]
+   - Failure rate: 99.2%
+   - Potential gain: +0.00 points
+4. Packaging [hard]
+   - Failure rate: 92.0%
+   - Potential gain: +0.41 points
+5. SAST [hard]
+   - Failure rate: 79.8%
+   - Potential gain: +1.24 points
+
+============================================================
+OUTLIER DETECTION
+============================================================
+
+Statistics: Mean=4.36, StdDev=1.35
+High outlier threshold: >7.07
+Low outlier threshold: <1.66
+
+🌟 EXCEPTIONAL HIGH PERFORMERS (38 total):
+ 1. ossf/scorecard-action                         Score: 9.1 | 339 ⭐ | verified
+ 2. sigstore/gh-action-sigstore-python            Score: 8.8 | 63 ⭐ | verified
+ 3. step-security/harden-runner                   Score: 8.6 | 921 ⭐ | verified
+ 4. github/issue-metrics                          Score: 8.4 | 510 ⭐ | verified
+ 5. github/evergreen                              Score: 8.4 | 217 ⭐ | verified
+ 6. github/measure-innersource                    Score: 8.3 | 13 ⭐ | verified
+ 7. fastify/github-action-merge-dependabot        Score: 8.3 | 178 ⭐ | unverified
+ 8. github/contributors                           Score: 8.2 | 129 ⭐ | verified
+ 9. github/accessibility-alt-text-bot             Score: 8.0 | 91 ⭐ | verified
+10. erlef/mix-dependency-submission               Score: 8.0 | 38 ⭐ | verified
+
+⚠️  EXCEPTIONAL LOW PERFORMERS (8 total):
+ 1. coderabbitai/ai-pr-reviewer                   Score: 1.4 | 1,978 ⭐ | verified
+ 2. trilom/file-changes-action                    Score: 1.4 | 167 ⭐ | unverified
+ 3. Asana/comment-on-task-github-action           Score: 1.6 | 36 ⭐ | verified
+ 4. Asana/create-app-attachment-github-action     Score: 1.6 | 37 ⭐ | verified
+ 5. RapidAPI/gh-api-testing-trigger               Score: 1.6 | 27 ⭐ | verified
+ 6. solidify/github-action-game-of-life           Score: 1.6 | 14 ⭐ | verified
+ 7. foo-software/lighthouse-check-action          Score: 1.6 | 502 ⭐ | unverified
+ 8. ahmadnassri/action-dependabot-auto-merge      Score: 1.6 | 356 ⭐ | unverified
+
+============================================================
+CHECK CORRELATION MATRIX
+============================================================
+
+Analyzed 13 check pairs
+Found 4 significant correlations (|r| >= 0.3)
+
+Top 10 Strongest Correlations (sample% > 50%):
+ 1. SAST                      <-> Security-Policy          
+    r=+0.415 (Moderate positive correlation) | sample% = 100.0%
+ 2. SAST                      <-> Maintained               
+    r=+0.367 (Weak positive correlation) | sample% = 100.0%
+ 3. Security-Policy           <-> Branch-Protection        
+    r=+0.323 (Weak positive correlation) | sample% = 100.0%
+ 4. Pinned-Dependencies       <-> Maintained               
+    r=+0.319 (Weak positive correlation) | sample% = 100.0%
